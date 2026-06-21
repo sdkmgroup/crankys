@@ -5,7 +5,7 @@ function CrankyQuote() {
     <section className="ck-section ck-cranky">
       <div className="ck-container ck-cranky__inner">
         <div className="ck-cranky__media">
-          <img src="../../assets/images/cranky-portrait.png" alt="Cranky, the steer the sanctuary is named after" />
+          <img src="assets/images/cranky-portrait.png" alt="Cranky, the steer the sanctuary is named after" />
           <span className="ck-cranky__caption script">…the one who started it all</span>
         </div>
         <div className="ck-cranky__copy">

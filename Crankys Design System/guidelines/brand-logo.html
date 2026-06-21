@@ -1,0 +1,17 @@
+<!-- @dsCard group="Brand" viewport="700x230" name="Logo — the cow badge" subtitle="The circular seal. Black on light, white on green/photo, green tint." -->
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/>
+<link rel="stylesheet" href="../styles.css"/>
+<style>
+  body { margin:0; padding:0; font-family:var(--font-sans); }
+  .grid { display:grid; grid-template-columns:1fr 1fr 1fr; }
+  .cell { height:230px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:14px; }
+  .cell img { width:118px; height:118px; object-fit:contain; }
+  .cell span { font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
+</style></head><body>
+<div class="grid">
+  <div class="cell" style="background:var(--cream-50)"><img src="../assets/logo-mark-black.png" alt="Cranky's FARM logo, black"/><span style="color:var(--text-muted)">Ink · light bg</span></div>
+  <div class="cell" style="background:var(--green-500)"><img src="../assets/logo-mark-white.png" alt="Cranky's FARM logo, white"/><span style="color:rgba(255,255,255,.85)">White · green / photo</span></div>
+  <div class="cell" style="background:var(--white)"><img src="../assets/logo-mark-green.png" alt="Cranky's FARM logo, green"/><span style="color:var(--text-muted)">Green tint · white bg</span></div>
+</div>
+</body></html>

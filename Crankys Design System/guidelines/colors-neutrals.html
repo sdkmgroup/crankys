@@ -1,0 +1,35 @@
+<!-- @dsCard group="Colors" viewport="700x200" name="Surfaces & ink neutrals" subtitle="Warm cream surfaces and a warm-grey ink ramp for text" -->
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/>
+<link rel="stylesheet" href="../styles.css"/>
+<style>
+  body { margin:0; padding:22px 24px; background:var(--color-surface); font-family:var(--font-sans); }
+  .lab { font-size:12px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--text-muted); margin:0 0 8px; }
+  .scale { display:flex; gap:0; border-radius:var(--radius-sm); overflow:hidden; box-shadow:var(--shadow-xs); border:1px solid var(--border); }
+  .sw { flex:1; height:58px; display:flex; align-items:flex-end; padding:6px; box-sizing:border-box; }
+  .sw span { font-size:10px; font-weight:700; }
+  .row { margin-bottom:16px; }
+</style></head><body>
+<div class="row">
+  <div class="lab">Cream & sand surfaces</div>
+  <div class="scale">
+    <div class="sw" style="background:var(--cream-50)"><span style="color:var(--ink-600)">cream-50 · page</span></div>
+    <div class="sw" style="background:var(--cream-100)"><span style="color:var(--ink-600)">cream-100</span></div>
+    <div class="sw" style="background:var(--cream-200)"><span style="color:var(--ink-600)">cream-200</span></div>
+    <div class="sw" style="background:var(--sand-300)"><span style="color:var(--ink-800)">sand-300</span></div>
+    <div class="sw" style="background:var(--white); border-left:1px solid var(--border)"><span style="color:var(--ink-600)">white · card</span></div>
+  </div>
+</div>
+<div class="row" style="margin-bottom:0">
+  <div class="lab">Ink — warm neutral text ramp</div>
+  <div class="scale">
+    <div class="sw" style="background:var(--ink-200)"><span style="color:var(--ink-800)">200</span></div>
+    <div class="sw" style="background:var(--ink-300)"><span style="color:var(--ink-800)">300</span></div>
+    <div class="sw" style="background:var(--ink-400)"><span style="color:#fff">400</span></div>
+    <div class="sw" style="background:var(--ink-500)"><span style="color:#fff">500 · muted</span></div>
+    <div class="sw" style="background:var(--ink-600)"><span style="color:#fff">600</span></div>
+    <div class="sw" style="background:var(--ink-700)"><span style="color:#fff">700 · body</span></div>
+    <div class="sw" style="background:var(--ink-900)"><span style="color:#fff">900 · heading</span></div>
+  </div>
+</div>
+</body></html>

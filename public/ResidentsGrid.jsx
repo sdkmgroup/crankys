@@ -2,13 +2,13 @@
 function ResidentsGrid({ onDonate }) {
   const { Card: RCard, Badge: RBadge, Button: RButton, SectionHeading: RHeading } = window.DesignSystem_5a631a;
   const residents = [
-    { img: '../../assets/images/bunny.png', name: 'Bunny', kind: 'Goat · arrived 2025',
+    { img: 'assets/images/bunny.png', name: 'Bunny', kind: 'Goat · arrived 2025',
       badge: <RBadge tone="warm">Needs a sponsor</RBadge>,
       text: 'A tiny, curious goat with the gentlest eyes. Bunny needs ongoing care as she grows up safe.' },
-    { img: '../../assets/images/lilah.png', name: 'Lilah', kind: 'Goat · rescued',
+    { img: 'assets/images/lilah.png', name: 'Lilah', kind: 'Goat · rescued',
       badge: <RBadge tone="green">Resident</RBadge>,
       text: 'Lilah spent her young life with no other goats for company. Now she has a whole herd of friends.' },
-    { img: '../../assets/images/cranky-portrait.png', name: 'Cranky', kind: 'Steer · since 2010', bw: true,
+    { img: 'assets/images/cranky-portrait.png', name: 'Cranky', kind: 'Steer · since 2010', bw: true,
       badge: <RBadge tone="neutral">Forever loved</RBadge>,
       text: 'The gentle soul our sanctuary is named after — and the reason every resident here has a home for life.' },
   ];

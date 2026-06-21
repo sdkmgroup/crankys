@@ -1,0 +1,21 @@
+<!-- @dsCard group="Spacing" viewport="700x190" name="Corner radii" subtitle="Soft, friendly rounding — pills for buttons, lg for cards" -->
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/>
+<link rel="stylesheet" href="../styles.css"/>
+<style>
+  body { margin:0; padding:24px 28px; background:var(--color-surface); font-family:var(--font-sans); }
+  .row { display:flex; gap:20px; flex-wrap:wrap; }
+  .item { text-align:center; }
+  .box { width:88px; height:64px; background:var(--green-100); border:2px solid var(--green-400); }
+  .item span { display:block; font-size:11.5px; color:var(--text-muted); margin-top:8px; }
+  .item b { color:var(--text-strong); }
+</style></head><body>
+<div class="row">
+  <div class="item"><div class="box" style="border-radius:var(--radius-xs)"></div><span><b>xs</b> · 6</span></div>
+  <div class="item"><div class="box" style="border-radius:var(--radius-sm)"></div><span><b>sm</b> · 10</span></div>
+  <div class="item"><div class="box" style="border-radius:var(--radius-md)"></div><span><b>md</b> · 16</span></div>
+  <div class="item"><div class="box" style="border-radius:var(--radius-lg)"></div><span><b>lg</b> · 24 · cards</span></div>
+  <div class="item"><div class="box" style="border-radius:var(--radius-xl)"></div><span><b>xl</b> · 34</span></div>
+  <div class="item"><div class="box" style="border-radius:var(--radius-pill); width:120px"></div><span><b>pill</b> · buttons</span></div>
+</div>
+</body></html>

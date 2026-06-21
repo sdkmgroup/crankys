@@ -1,0 +1,21 @@
+<!-- @dsCard group="Spacing" viewport="700x210" name="Shadows & elevation" subtitle="Warm, low, ink-tinted shadows — plus coloured CTA glows" -->
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/>
+<link rel="stylesheet" href="../styles.css"/>
+<style>
+  body { margin:0; padding:30px 28px; background:var(--cream-100); font-family:var(--font-sans); }
+  .row { display:flex; gap:26px; flex-wrap:wrap; }
+  .item { text-align:center; }
+  .box { width:96px; height:70px; background:var(--white); border-radius:var(--radius-md); }
+  .item span { display:block; font-size:11.5px; color:var(--text-muted); margin-top:12px; }
+  .item b { color:var(--text-strong); }
+</style></head><body>
+<div class="row">
+  <div class="item"><div class="box" style="box-shadow:var(--shadow-xs)"></div><span><b>xs</b></span></div>
+  <div class="item"><div class="box" style="box-shadow:var(--shadow-sm)"></div><span><b>sm</b> · cards</span></div>
+  <div class="item"><div class="box" style="box-shadow:var(--shadow-md)"></div><span><b>md</b> · raised</span></div>
+  <div class="item"><div class="box" style="box-shadow:var(--shadow-lg)"></div><span><b>lg</b> · hover</span></div>
+  <div class="item"><div class="box" style="box-shadow:var(--shadow-green); background:var(--green-500)"></div><span><b>green</b> · CTA</span></div>
+  <div class="item"><div class="box" style="box-shadow:var(--shadow-donate); background:var(--berry-500)"></div><span><b>donate</b></span></div>
+</div>
+</body></html>

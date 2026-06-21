@@ -1,0 +1,22 @@
+<!-- @dsCard group="Type" viewport="700x230" name="Eyebrow & handwritten accent" subtitle="Uppercase overline labels + the Caveat script, used sparingly" -->
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/>
+<link rel="stylesheet" href="../styles.css"/>
+<style>
+  body { margin:0; padding:26px 28px; background:var(--color-surface); }
+  .block { margin-bottom:22px; }
+  .eyebrow { display:inline-flex; align-items:center; gap:.6em; }
+  .eyebrow::after { content:""; width:30px; height:2px; background:var(--eyebrow); border-radius:2px; }
+  .hand { font-family:var(--font-hand); font-weight:700; color:var(--color-primary-strong); font-size:42px; line-height:1; }
+  .meta { font-family:var(--font-sans); font-size:12.5px; color:var(--text-muted); margin-top:6px; }
+  .meta b { color:var(--text-strong); }
+</style></head><body>
+<div class="block">
+  <span class="eyebrow">Meet the residents</span>
+  <p class="meta"><b>.eyebrow</b> — Hanken Grotesk 700, uppercase, tracking 0.16em, clay accent + rule. Opens every section.</p>
+</div>
+<div class="block" style="margin-bottom:0">
+  <span class="hand">…thank you for caring</span>
+  <p class="meta"><b>.script</b> — Caveat, for warm captions, signatures and quote flourishes. Sparing use only — never body text.</p>
+</div>
+</body></html>

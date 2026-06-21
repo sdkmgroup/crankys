@@ -3,21 +3,21 @@ function NewsGrid() {
   const { Card: NCard, Badge: NBadge, Button: NButton, SectionHeading: NHeading } = window.DesignSystem_5a631a;
   const posts = [
     {
-      img: '../../assets/images/cranky-portrait.png', bw: true,
+      img: 'assets/images/cranky-portrait.png', bw: true,
       badge: <NBadge tone="urgent">Urgent appeal</NBadge>,
       eyebrow: 'Rescue appeal', title: 'Help save Ferdinand from the sales',
       meta: 'By Natalie · 12 Oct 2025',
       text: 'A gentle six-year-old bull came into our care facing the terrifying prospect of the cattle sales. Thanks to an incredible community, he is safe — but his recovery has only begun.',
     },
     {
-      img: '../../assets/images/bunny.png',
+      img: 'assets/images/bunny.png',
       badge: <NBadge tone="warm" icon={<window.PawIcon />}>New arrival</NBadge>,
       eyebrow: 'Rescue story', title: "Bunny's story",
       meta: 'By Natalie · 4 Oct 2025',
       text: 'We were contacted by friends who had taken in a tiny goat needing specialist care. Bunny is settling in beautifully — and learning that humans can be gentle.',
     },
     {
-      img: '../../assets/images/gloria.png',
+      img: 'assets/images/gloria.png',
       badge: <NBadge tone="sun" icon={<window.Calendar />}>Event</NBadge>,
       eyebrow: 'Save the date', title: 'Trivia Night 2025',
       meta: 'By Natalie · 6 Sep 2025',

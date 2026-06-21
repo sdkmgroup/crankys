@@ -5,7 +5,7 @@ from the design-system primitives. It is the reference for "what the brand
 looks like in 2026".
 
 ## Run it
-Open `index.html`. It loads `../../styles.css`, the kit's own `kit.css`
+Open `index.html`. It loads `styles.css`, the kit's own `kit.css`
 (page layout only), React + Babel, and the compiled `_ds_bundle.js`, then mounts
 the homepage.
 

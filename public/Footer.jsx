@@ -5,7 +5,7 @@ function Footer() {
     <footer className="ck-footer">
       <div className="ck-container ck-footer__inner">
         <div className="ck-footer__brand">
-          <img src="../../assets/logo-mark-white.png" alt="Cranky's FARM" className="ck-footer__logo" />
+          <img src="assets/logo-mark-white.png" alt="Cranky's FARM" className="ck-footer__logo" />
           <p className="ck-footer__about">
             Cranky's FARM is a registered charity which rescues and cares for abused,
             neglected and unwanted farm animals.

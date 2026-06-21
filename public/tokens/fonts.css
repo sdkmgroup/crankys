@@ -1,0 +1,11 @@
+/* ───────────────────────────────────────────────────────────
+   Cranky's FARM — Webfonts
+   Newsreader  → editorial serif for headlines & storytelling
+   Hanken Grotesk → clean, friendly grotesque for body & UI
+   Caveat → handwritten accent (captions, signatures) — sparing
+   NOTE: substituted from Google Fonts. The original site used a
+   casual script wordmark + a generic humanist sans; these are a
+   refreshed, tasteful pairing. Swap for licensed brand fonts if
+   the charity adopts specific ones.
+   ─────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500;1,6..72,600&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Caveat:wght@500;600;700&display=swap');

@@ -7,7 +7,7 @@ function Header({ onDonate }) {
     <header className="ck-header">
       <div className="ck-header__inner">
         <a className="ck-brand" href="#top" aria-label="Cranky's FARM home">
-          <img src="../../assets/logo-mark-green.png" alt="" className="ck-brand__mark" />
+          <img src="assets/logo-mark-green.png" alt="" className="ck-brand__mark" />
           <span className="ck-brand__word">
             <span className="ck-brand__name">Cranky's</span>
             <span className="ck-brand__sub">Farm Animal Rescue Mission</span>

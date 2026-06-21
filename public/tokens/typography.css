@@ -1,0 +1,48 @@
+/* ───────────────────────────────────────────────────────────
+   Cranky's FARM — Typography tokens
+   ─────────────────────────────────────────────────────────── */
+:root {
+  /* Families */
+  --font-serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --font-sans:  'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-hand:  'Caveat', 'Segoe Script', cursive;
+
+  /* Weights */
+  --fw-regular: 400; /* @kind font */
+  --fw-medium:  500; /* @kind font */
+  --fw-semibold:600; /* @kind font */
+  --fw-bold:    700; /* @kind font */
+  --fw-extra:   800; /* @kind font */
+
+  /* Fluid display scale (clamp: min … preferred … max) */
+  --fs-display: clamp(2.75rem, 1.6rem + 4.6vw, 5rem); /* @kind spacing */
+  --fs-h1:      clamp(2.25rem, 1.5rem + 3vw, 3.5rem); /* @kind spacing */
+  --fs-h2:      clamp(1.75rem, 1.25rem + 2vw, 2.5rem); /* @kind spacing */
+  --fs-h3:      clamp(1.375rem, 1.1rem + 1vw, 1.75rem); /* @kind spacing */
+  --fs-h4:      1.25rem; /* @kind spacing */
+  --fs-lead:    clamp(1.125rem, 1rem + 0.5vw, 1.375rem); /* @kind spacing */
+  --fs-body:    1.0625rem; /* @kind spacing */
+  --fs-body-sm: 0.9375rem; /* @kind spacing */
+  --fs-caption: 0.8125rem; /* @kind spacing */
+  --fs-eyebrow: 0.78rem; /* @kind spacing */
+
+  /* Line heights */
+  --lh-tight:  1.06; /* @kind font */
+  --lh-snug:   1.2; /* @kind font */
+  --lh-normal: 1.45; /* @kind font */
+  --lh-relaxed:1.65; /* @kind font */
+
+  /* Letter spacing */
+  --ls-tight:   -0.02em; /* @kind font */
+  --ls-display: -0.025em; /* @kind font */
+  --ls-normal:  0; /* @kind font */
+  --ls-eyebrow: 0.16em; /* @kind font */
+  --ls-caps:    0.04em; /* @kind font */
+
+  /* ── Semantic type roles ─────────────────────────────────── */
+  --type-display-family: var(--font-serif);
+  --type-display-weight: var(--fw-semibold);
+  --type-heading-family: var(--font-serif);
+  --type-body-family:    var(--font-sans);
+  --type-eyebrow-family: var(--font-sans);
+}

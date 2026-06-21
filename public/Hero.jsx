@@ -22,10 +22,10 @@ function Hero({ onDonate }) {
 
         <div className="ck-hero__media">
           <div className="ck-hero__frame">
-            <img src="../../assets/images/bunny.png" alt="Bunny, a rescued goat kid, being cradled at Cranky's FARM" />
+            <img src="assets/images/bunny.png" alt="Bunny, a rescued goat kid, being cradled at Cranky's FARM" />
           </div>
           <div className="ck-hero__badge">
-            <img src="../../assets/logo-mark-green.png" alt="Cranky's FARM seal" />
+            <img src="assets/logo-mark-green.png" alt="Cranky's FARM seal" />
           </div>
           <div className="ck-hero__stat">
             <span className="ck-hero__stat-num">500+</span>
